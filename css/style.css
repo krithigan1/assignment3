@@ -3032,7 +3032,7 @@ ol {
 	.humberger__menu__contact ul li {
 		font-size: 14px;
 		color: #1c1c1c;
-		position: center;
+		position: relative;
 		line-height: 30px;
 		list-style: none;
 	}
@@ -3290,7 +3290,7 @@ ol {
 	.humberger__menu__contact ul li {
 		font-size: 14px;
 		color: #1c1c1c;
-		position: center;
+		position: relative;
 		line-height: 30px;
 		list-style: none;
 	}

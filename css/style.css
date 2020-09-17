@@ -2750,6 +2750,7 @@ ol {
 .contact {
 	padding-top: 80px;
 	padding-bottom: 50px;
+	align-items: center;
 }
 
 .contact__widget {

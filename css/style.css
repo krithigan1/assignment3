@@ -122,7 +122,7 @@ ol {
 	position: relative;
 }
 
-.section-title h3:after {
+.section-title h2:after {
 	position: absolute;
 	left: 0;
 	bottom: -15px;

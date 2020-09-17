@@ -2750,7 +2750,7 @@ ol {
 .contact {
 	padding-top: 80px;
 	padding-bottom: 50px;
-	align-items: center;
+	
 }
 
 .contact__widget {
@@ -2773,6 +2773,10 @@ ol {
 	color: #666666;
 	margin-bottom: 0;
 }
+.contact__widget p {
+	position: center;
+}
+
 
 /*---------------------
   Map

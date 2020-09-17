@@ -2750,16 +2750,19 @@ ol {
 .contact {
 	padding-top: 80px;
 	padding-bottom: 50px;
+	position: center;
 	
 }
 
 .contact__widget {
 	margin-bottom: 30px;
+	position: center;
 }
 
 .contact__widget span {
 	font-size: 36px;
 	color: #7fad39;
+	position: center;
 }
 
 .contact__widget h4 {
@@ -2767,15 +2770,15 @@ ol {
 	font-weight: 700;
 	margin-bottom: 6px;
 	margin-top: 18px;
+	position: center;
 }
 
 .contact__widget p {
 	color: #666666;
 	margin-bottom: 0;
-}
-.contact__widget p {
 	position: center;
 }
+
 
 
 /*---------------------
@@ -3029,7 +3032,7 @@ ol {
 	.humberger__menu__contact ul li {
 		font-size: 14px;
 		color: #1c1c1c;
-		position: relative;
+		position: center;
 		line-height: 30px;
 		list-style: none;
 	}
@@ -3287,7 +3290,7 @@ ol {
 	.humberger__menu__contact ul li {
 		font-size: 14px;
 		color: #1c1c1c;
-		position: relative;
+		position: center;
 		line-height: 30px;
 		list-style: none;
 	}

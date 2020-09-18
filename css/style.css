@@ -762,12 +762,14 @@ ol {
 	position: relative;
 }
 
+
+/*--------------------- CATEGORY <H5>
 .categories__item h5 {
 	position: absolute;
 	left: 0;
 	width: 100%;
-	padding: 0 20px;
-	bottom: 20px;
+	padding: 0 10px;
+	bottom: 10px;
 	text-align: center;
 }
 
@@ -781,7 +783,29 @@ ol {
 	background: #ffffff;
 	display: block;
 }
+-----------------------*/ 
 
+/*--------------------- CATEGORY <H6>
+.categories__item h6 {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	padding: 0 20px;
+	bottom: 20px;
+	text-align: center;
+}
+
+.categories__item h6 a {
+	font-size: 18px;
+	color: #1c1c1c;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 12px 0 10px;
+	background: #ffffff;
+	display: block;
+}
+-----------------------*/
 .categories__slider .col-lg-3 {
 	max-width: 100%;
 }

@@ -129,7 +129,7 @@ ol {
 	right: 0;
 	height: 4px;
 	width: 80px;
-	background: #fee5ca;
+	background: #fed8b1;
 	content: "";
 	margin: 0 auto;
 }
@@ -2614,7 +2614,7 @@ ol {
 -----------------------*/
 
 .footer {
-	background: #fed8b1;
+	background: #fee5ca;
 	padding-top: 70px;
 	padding-bottom: 0;
 }

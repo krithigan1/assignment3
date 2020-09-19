@@ -628,7 +628,7 @@ LANGUAGE BUTTON END */
 	list-style: none;
 }
 
-.hero__categories ul li span {
+.hero__categories ul li a span {
 	font-size: 16px;
 	color: #522b0c;
 	line-height: 39px;

@@ -763,8 +763,8 @@ ol {
 }
 
 
-/*--------------------- CATEGORY <H5>
-.categories__item h5 {
+/*--------------------- CATEGORY <H5> UPDATED 1003AM change back to <h5>
+.categories__item h6 {
 	position: absolute;
 	left: 0;
 	width: 100%;
@@ -773,7 +773,7 @@ ol {
 	text-align: center;
 }
 
-.categories__item h5 a {
+.categories__item h6 a {
 	font-size: 18px;
 	color: #1c1c1c;
 	font-weight: 700;

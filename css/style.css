@@ -762,18 +762,17 @@ ol {
 	position: relative;
 }
 
-/*---------------------
 .categories__item h5 {
 	position: absolute;
 	left: 0;
 	width: 100%;
-	padding: 0 10px;
-	bottom: 10px;
+	padding: 0 20px;
+	bottom: 20px;
 	text-align: center;
 }
 
 .categories__item h5 a {
-	font-size: 14px;
+	font-size: 18px;
 	color: #1c1c1c;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -782,7 +781,6 @@ ol {
 	background: #ffffff;
 	display: block;
 }
------------------------*/ 
 
 .categories__slider .col-lg-3 {
 	max-width: 100%;

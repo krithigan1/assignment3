@@ -762,9 +762,8 @@ ol {
 	position: relative;
 }
 
-
-/*--------------------- CATEGORY <H5> UPDATED 1003AM change back to <h5>
-.categories__item h6 {
+/*---------------------
+.categories__item h5 {
 	position: absolute;
 	left: 0;
 	width: 100%;
@@ -773,8 +772,8 @@ ol {
 	text-align: center;
 }
 
-.categories__item h6 a {
-	font-size: 18px;
+.categories__item h5 a {
+	font-size: 14px;
 	color: #1c1c1c;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -785,27 +784,6 @@ ol {
 }
 -----------------------*/ 
 
-/*--------------------- CATEGORY <H6>
-.categories__item h6 {
-	position: absolute;
-	left: 0;
-	width: 100%;
-	padding: 0 20px;
-	bottom: 20px;
-	text-align: center;
-}
-
-.categories__item h6 a {
-	font-size: 18px;
-	color: #1c1c1c;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	padding: 12px 0 10px;
-	background: #ffffff;
-	display: block;
-}
------------------------*/
 .categories__slider .col-lg-3 {
 	max-width: 100%;
 }

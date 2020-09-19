@@ -323,6 +323,7 @@ ol {
 	margin-right: 0;
 }
 
+/* LANGUAGE BUTTON START
 .header__top__right__language {
 	position: relative;
 	display: inline-block;
@@ -392,6 +393,7 @@ ol {
 	color: #ffffff;
 	padding: 5px 10px;
 }
+LANGUAGE BUTTON END */
 
 .header__top__right__auth {
 	display: inline-block;

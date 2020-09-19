@@ -2765,7 +2765,7 @@ LANGUAGE BUTTON END */
 
 .contact__widget {
 	margin-bottom: 30px;
-	position: center;
+	align-items: center;;
 }
 
 .contact__widget span {

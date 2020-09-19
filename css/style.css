@@ -629,7 +629,10 @@ LANGUAGE BUTTON END */
 }
 
 .hero__categories ul li span {
-	color: red;  /* text color */
+	font-size: 16px;
+	color: #c66603;
+	line-height: 39px;
+	display: block;
 }
 
 .hero__categories ul li a {

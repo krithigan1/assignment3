@@ -743,7 +743,7 @@ LANGUAGE BUTTON END */
 }
 
 .hero__text span {
-	font-size: 14px;
+	font-size: 46px;
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 4px;
@@ -751,8 +751,8 @@ LANGUAGE BUTTON END */
 	margin-top: 10px;
 }
 
-.hero__text h2 {
-	font-size: 46px;
+.hero__text h4 {
+	font-size: 30px;
 	color: #252525;
 	line-height: 52px;
 	font-weight: 700;

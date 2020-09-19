@@ -752,10 +752,10 @@ LANGUAGE BUTTON END */
 }
 
 .hero__text h4 {
-	font-size: 20px;
+	font-size: 10px;
 	color: #252525;
 	line-height: 30px;
-	font-weight: 700;
+	font-weight: 500;
 	margin: 10px 0;
 }
 

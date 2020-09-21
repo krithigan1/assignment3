@@ -1038,8 +1038,6 @@ LANGUAGE BUTTON END */
 }
 
 .from-blog .blog__item {
-	display:grid;
-	grid-template-collumns: 20% 20% 20%
 	margin-bottom: 30px;
 }
 

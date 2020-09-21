@@ -1051,7 +1051,7 @@ LANGUAGE BUTTON END */
 .breadcrumb-section {
 	display: flex;
 	align-items: center;
-	padding: 30px 0 30px;
+	padding: 25px 0 25px;
 }
 
 .breadcrumb__text h2 {

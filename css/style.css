@@ -2784,23 +2784,12 @@ LANGUAGE BUTTON END */
 	margin-bottom: 0;
 }
 
-input[type=checkbox]
-{
-  /* Double-sized Checkboxes */
-  -ms-transform: scale(1); /* IE */
-  -moz-transform: scale(1); /* FF */
-  -webkit-transform: scale(1); /* Safari and Chrome */
-  -o-transform: scale(1); /* Opera */
-  transform: scale(1);
-  padding: 5px;
+label {
+	font: 1rem 'Fire Sans', sans-serif;
 }
 
-/* Might want to wrap a span around your checkbox text */
-.checkboxtext
-{
-  /* Checkbox text */
-  font-size: 200%;
-  display: inline;
+input {
+	margin: .4rem:
 }
 
 /*---------------------

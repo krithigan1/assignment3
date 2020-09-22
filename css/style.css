@@ -2788,8 +2788,8 @@ label {
 	font: 1rem 'Fire Sans', sans-serif;
 }
 
-input {
-	margin: .4rem:
+input.sendcopy {
+	transform: scale(1);
 }
 
 /*---------------------

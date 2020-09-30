@@ -7,7 +7,7 @@
     <meta name="keywords" content="Ogani, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Under One Woof | Shop</title>
+    <title>Under One Woof | Product Details</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
@@ -33,50 +33,23 @@
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
         <div class="humberger__menu__logo">
-            <a href="#"><img src="img/logo.png" alt=""></a>
+            <a href="#"><img src="img/logo.png" alt="Dogs"></a>
         </div>
         <div class="humberger__menu__cart">
             <ul>
                 <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-bag"></i> <span>(<span class="simpleCart_quantity"></span></a></li>
             </ul>
-            <div class="header__cart__price">item: <span>$0.00</span></div>
+            <div class="header__cart__price">item: <span>View Cart (<span class="simpleCart_quantity"></span> items)</div>
         </div>
-<!-- START LANGUAGE BUTTON 
-        <div class="humberger__menu__widget">
-            <div class="header__top__right__language">
-                <img src="img/language.png" alt="">
-                <div>English</div>
-                <span class="arrow_carrot-down"></span>
-                <ul>
-                    <li><a href="#">Spanis</a></li>
-                    <li><a href="#">English</a></li>
-                </ul>
-            </div>
-            <div class="header__top__right__auth">
-                <a href="#"><i class="fa fa-user"></i> Login</a>
-            </div>
-        </div>
-END OF LANGUAGE BUTTON -->
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
-                <li class="active"><a href="./index.html">Home</a></li>
-                <li><a href="./shop-grid.html">Shop</a></li>
-                <li>Pages</li>
-                    <ul>
-                            <li><a href="./index.html">Home</a></li>
-                            <li class="active"><a href="./shop-grid.html">Packages</a></li>
-                            <!--<li>Pages</li>
-                            <ul class="header__menu__dropdown">
-                            <li><a href="./shop-details.html">Shop Details</a></li>
-                            <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                            <li><a href="./checkout.html">Check Out</a></li>
-                            </ul>
-                            </li>-->
-                            <li><a href="./Forum.html">Forum</a></li>
-                            <li><a href="./contact.html">Contact</a></li>
-                            <li><a href="./about.html">About Us</a></li>
-                        </ul>
+                <li><a href="./index.html">Home</a></li>
+                <li class="active"><a href="./shop-grid.html">Packages</a></li>
+                <li><a href="./Forum.html">Forum</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./about.html">About Us</a></li>
+            </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
         <div class="header__top__right__social">
@@ -111,17 +84,6 @@ END OF LANGUAGE BUTTON -->
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
                             </div>
- <!-- START LANGUAGE BUTTON 
-                            <div class="header__top__right__language">
-                                <img src="img/language.png" alt="">
-                                <div>English</div>
-                                <span class="arrow_carrot-down"></span>
-                                <ul>
-                                    <li><a href="#">Spanis</a></li>
-                                    <li><a href="#">English</a></li>
-                                </ul>
-                            </div>
-END LANGUAGE BUTTON -->
                             <div class="header__top__right__auth">
                                 <a href="#"><i class="fa fa-user"></i> Login</a>
                             </div>
@@ -134,7 +96,7 @@ END LANGUAGE BUTTON -->
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <a href="./index.html"><img src="img/logo.png" alt="Dogs"></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -142,13 +104,6 @@ END LANGUAGE BUTTON -->
                         <ul>
                             <li><a href="./index.html">Home</a></li>
                             <li class="active"><a href="./shop-grid.html">Packages</a></li>
-                            <!--<li>Pages</li>
-                            <ul class="header__menu__dropdown">
-                            <li><a href="./shop-details.html">Shop Details</a></li>
-                            <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                            <li><a href="./checkout.html">Check Out</a></li>
-                            </ul>
-                            </li>-->
                             <li><a href="./Forum.html">Forum</a></li>
                             <li><a href="./contact.html">Contact</a></li>
                             <li><a href="./about.html">About Us</a></li>
@@ -159,9 +114,9 @@ END LANGUAGE BUTTON -->
                     <div class="header__cart">
                         <ul>
                             <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>0</span></a></li>
+                            <li><a href="cart.html"><i class="fa fa-shopping-bag"></i> <span class="simpleCart_quantity"></span></a></li>
                         </ul>
-                        <div class="header__cart__price">item: <span>$0.00</span></div>
+                        <div class="header__cart__price">Total: <span class="simpleCart_total"></span></div>
                     </div>
                 </div>
             </div>
@@ -372,7 +327,7 @@ END LANGUAGE BUTTON -->
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-1.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="img/product/product-1.jpg" alt="Dog package">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -388,7 +343,7 @@ END LANGUAGE BUTTON -->
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-2.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="img/product/product-2.jpg" alt="Small puppy">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -404,7 +359,7 @@ END LANGUAGE BUTTON -->
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-3.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="img/product/product-3.jpg" alt="dog toys and equipment">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -420,7 +375,7 @@ END LANGUAGE BUTTON -->
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-4.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="img/product/product-4.jpg" alt="dog rope toys">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -436,7 +391,7 @@ END LANGUAGE BUTTON -->
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-5.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="img/product/product-5.jpg" alt="dog grooming">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -452,7 +407,7 @@ END LANGUAGE BUTTON -->
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-6.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="img/product/product-6.jpg" alt="dog walk">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -579,7 +534,7 @@ END LANGUAGE BUTTON -->
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__about__logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                            <a href="./index.html"><img src="img/logo.png" alt="dogs"></a>
                         </div>
                         <ul>
                             <li>Phone: 0422 333 111</li>
@@ -640,6 +595,10 @@ END LANGUAGE BUTTON -->
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/simpleCart.js"></script>
+    <script src="js/simpleCart.min.js"></script>
+    <script src="js/simplecartjs-config.js"></script>
 
 
 

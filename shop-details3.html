@@ -33,31 +33,16 @@
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
         <div class="humberger__menu__logo">
-            <a href="#"><img src="img/logo.png" alt=""></a>
+            <a href="#"><img src="img/logo.png" alt="Dogs"></a>
         </div>
         <div class="humberger__menu__cart">
             <ul>
                 <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>0</span></a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-bag"></i> <span>(<span class="simpleCart_quantity"></span></a></li>
             </ul>
-            <div class="header__cart__price">item: <span>$0.00</span></div>
+            <div class="header__cart__price">item: <span>View Cart (<span class="simpleCart_quantity"></span> items)</div>
         </div>
-<!-- START LANGUAGE BUTTON 
-        <div class="humberger__menu__widget">
-            <div class="header__top__right__language">
-                <img src="img/language.png" alt="">
-                <div>English</div>
-                <span class="arrow_carrot-down"></span>
-                <ul>
-                    <li><a href="#">Spanis</a></li>
-                    <li><a href="#">English</a></li>
-                </ul>
-            </div>
-            <div class="header__top__right__auth">
-                <a href="#"><i class="fa fa-user"></i> Login</a>
-            </div>
-        </div>
-END OF LANGUAGE BUTTON -->
+
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
                 <li><a href="./index.html">Home</a></li>
@@ -100,17 +85,6 @@ END OF LANGUAGE BUTTON -->
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
                             </div>
- <!-- START LANGUAGE BUTTON 
-                            <div class="header__top__right__language">
-                                <img src="img/language.png" alt="">
-                                <div>English</div>
-                                <span class="arrow_carrot-down"></span>
-                                <ul>
-                                    <li><a href="#">Spanis</a></li>
-                                    <li><a href="#">English</a></li>
-                                </ul>
-                            </div>
-END LANGUAGE BUTTON -->
                             <div class="header__top__right__auth">
                                 <a href="#"><i class="fa fa-user"></i> Login</a>
                             </div>
@@ -123,7 +97,7 @@ END LANGUAGE BUTTON -->
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <a href="./index.html"><img src="img/logo.png" alt="Dogs"></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -141,9 +115,9 @@ END LANGUAGE BUTTON -->
                     <div class="header__cart">
                         <ul>
                             <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>0</span></a></li>
+                            <li><a href="cart.html"><i class="fa fa-shopping-bag"></i> <span class="simpleCart_quantity"></span></a></li>
                         </ul>
-                        <div class="header__cart__price">item: <span>$0.00</span></div>
+                        <div class="header__cart__price">Total: <span class="simpleCart_total"></span></div>
                     </div>
                 </div>
             </div>
@@ -227,7 +201,7 @@ END LANGUAGE BUTTON -->
                     <div class="product__details__pic">
                         <div class="product__details__pic__item">
                             <img class="product__details__pic__item--large"
-                                src="img/product/product-3.jpg" alt="">
+                                src="img/product/product-3.jpg" alt="Dog toys and equipment">
                         </div>
                         <!--OWL CAROUSEL
                         <div class="product__details__pic__slider owl-carousel">
@@ -257,14 +231,17 @@ END LANGUAGE BUTTON -->
                         <p>This package consists of a mix of various equipment and toys - including grooming comb 
                             and toys to keep your puppy occupied! 
                         </p>
+                        <div class="simpleCart_shelfItem">
                         <div class="product__details__quantity">
                             <div class="quantity">
                                 <div class="pro-qty">
-                                    <input type="text" value="1">
+                                    <input type="text" value="1" class="item_Quantity"/>
                                 </div>
                             </div>
                         </div>
-                        <a href="#" class="primary-btn">ADD TO CART</a>
+                        </div>
+                        <a class="item_add primary-btn" href="javascript:;">Add to Cart</a>
+                        <!-- <a href="javascript:;" class="primary-btn">ADD TO CART</a> -->
                         <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
                         <ul>
                             <li><b>Availability</b> <span>In Stock</span></li>
@@ -423,7 +400,7 @@ END LANGUAGE BUTTON -->
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__about__logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                            <a href="./index.html"><img src="img/logo.png" alt="Dogs"></a>
                         </div>
                         <ul>
                             <li>Phone: 0422 333 111</li>
@@ -484,7 +461,10 @@ END LANGUAGE BUTTON -->
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/simpleCart.js"></script>
+    <script src="js/simpleCart.min.js"></script>
+    <script src="js/simplecartjs-config.js"></script>
 
 </body>
 

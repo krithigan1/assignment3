@@ -2910,8 +2910,25 @@ input.sendcopy {
 }
 
 /*---------------------
-  Contact Form
+  new Contact Form design 
 -----------------------*/
+.Cform {
+	width: 500px;
+	
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+
+
+
+/*---------------------
+  old Contact Form
+-----------------------*/
+
 
 .contact__form__title {
 	margin-bottom: 50px;

@@ -2929,7 +2929,7 @@ input.sendcopy {
   old Contact Form
 -----------------------*/
 
-
+/*---------------------
 .contact__form__title {
 	margin-bottom: 50px;
 	text-align: center;
@@ -2981,7 +2981,7 @@ input.sendcopy {
 	font-size: 18px;
 	letter-spacing: 2px;
 }
-
+-----------------------*/
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
 @media only screen and (min-width: 1200px) {

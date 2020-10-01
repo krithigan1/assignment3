@@ -37,10 +37,9 @@
         </div>
         <div class="humberger__menu__cart">
             <ul>
-                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                <li><a href="cart.html"><i class="fa fa-shopping-bag"></i> <span>(<span class="simpleCart_quantity"></span></a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-bag"></i> <span class="simpleCart_quantity"></span></a></li>
             </ul>
-            <div class="header__cart__price">item: <span>View Cart (<span class="simpleCart_quantity"></span> items)</div>
+            <div class="header__cart__price">Total: <span class="simpleCart_total"></span></div>
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
@@ -113,7 +112,6 @@
                 <div class="col-lg-3">
                     <div class="header__cart">
                         <ul>
-                            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
                             <li><a href="cart.html"><i class="fa fa-shopping-bag"></i> <span class="simpleCart_quantity"></span></a></li>
                         </ul>
                         <div class="header__cart__price">Total: <span class="simpleCart_total"></span></div>
@@ -202,50 +200,33 @@
                             <img class="product__details__pic__item--large"
                                 src="img/product/product-4.jpg" alt="Dog toy ropes">
                         </div>
-                        <!--OWL CAROUSEL
-                        <div class="product__details__pic__slider owl-carousel">
-                            <img data-imgbigurl="img/product/details/thumb-5.jpg"
-                                src="img/product/details/thumb-5.jpg" alt="">
-                            <img data-imgbigurl="img/product/details/thumb-6.jpg"
-                                src="img/product/details/thumb-6.jpg" alt="">
-                            <img data-imgbigurl="img/product/details/thumb-7.jpg"
-                                src="img/product/details/thumb-7.jpg" alt="">
-                            <img data-imgbigurl="img/product/details/thumb-8.jpg"
-                                src="img/product/details/thumb-8.jpg" alt="">
-                        </div>-->
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <div class="product__details__text">
-                        <h3>Roped In Pack</h3>
-                        <div class="product__details__rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                            <span>(11 reviews)</span>
-                        </div>
-                        <div class="product__details__price">$13.99</div>
+                    <div class="simpleCart_shelfItem">
+                        <div class="product__details__text">
+                            <h3 class="item_name">Roped in Pack</h3>
+                            <div class="product__details__rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <span>(18 reviews)</span>
+                            </div>
+                        <div class="item_price">$13.99</div>
                         <p>This package is for all those puppies who love playing tug-of-war. 
                             Your pup will not be chewing shoes or furniture anymore after getting thier 
                             paws on these goodies.
                         </p>
-                        <div class="simpleCart_shelfItem">
-                        <div class="product__details__quantity">
-                            <div class="quantity">
-                                <div class="pro-qty">
-                                    <input type="text" value="1">
-                                </div>
-                            </div>
+                        <div class="product__details__quantity quantity">
+                                    <input type="hidden" value="1" class="item_Quantity">
                         </div>
                         
                         <a class="item_add primary-btn" href="javascript:;">Add to Cart</a>
-                        <!-- <a href="javascript:;" class="primary-btn">ADD TO CART</a> -->
-                        <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
                         <ul>
                             <li><b>Availability</b> <span>In Stock</span></li>
-                            <li><b>Shipping</b> <span>01 day shipping. <!--<samp>Free pickup today</samp></span></li>-->
+                            <li><b>Shipping</b> <span>1 day shipping.
                             <li><b>Weight</b> <span>1.0 kg</span></li>
                             <li><b>Share on</b>
                                 <div class="share">
@@ -254,6 +235,7 @@
                                 </div>
                             </li>
                         </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-12">
@@ -331,14 +313,9 @@
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
                         <div class="product__item__pic set-bg" data-setbg="img/product/product-2.jpg">
-                            <ul class="product__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Small Pup Starter Pack</a></h6>
+                            <h6><a href="./shop-details2.html">Small Pup Starter Pack</a></h6>
                             <h5>$19.99</h5>
                         </div>
                     </div>
@@ -346,14 +323,9 @@
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
                         <div class="product__item__pic set-bg" data-setbg="img/product/product-3.jpg">
-                            <ul class="product__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Mix of Stuff Pack</a></h6>
+                            <h6><a href="./shop-details3.html">Mix of Stuff Pack</a></h6>
                             <h5>$24.99</h5>
                         </div>
                     </div>
@@ -361,14 +333,9 @@
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
                         <div class="product__item__pic set-bg" data-setbg="img/product/product-5.jpg">
-                            <ul class="product__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Groom and play Pack</a></h6>
+                            <h6><a href="./shop-details5.html">Groom and play Pack</a></h6>
                             <h5>$39.99</h5>
                         </div>
                     </div>
@@ -376,14 +343,9 @@
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
                         <div class="product__item__pic set-bg" data-setbg="img/product/product-6.jpg">
-                            <ul class="product__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Walkies Pack</a></h6>
+                            <h6><a href="./shop-details6.html">Walkies Pack</a></h6>
                             <h5>$54.99</h5>
                         </div>
                     </div>

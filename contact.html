@@ -184,11 +184,12 @@
 <!-- Script for Contact Form End -->
 
 <!-- Contact Form Start -->
-	<br>
-<div class="Cform">
-                <h5>Submit a form below and we will be in contact with you within a week.</h5>
-                <br>
+<div class="txt">
+<h5>Submit a form below and we will be in contact with you within a week.</h5>
+</div>
+<br>
 
+<div class="Cform">           
 <!-- <form name="RegForm" action="submit.html" onsubmit="return Myform()" method="post" style="border-style: solid"> -->
     <form name="RegForm" action="submit.html" onsubmit="return Myform()" method="post">
 			<br>
@@ -198,28 +199,35 @@
     <p>Subject: <input type="text" size=65 name="Subject"> </p>
 
     
-    <label for="name">Message:</label>
-    <input type="text" id="name" style="width: 470px; height: 100px;">
-     <br>
-     <br>
-           
+<div class="message">
+    <label for="message">Message:</label>
+</div>
 
-    <p><input type="submit" value="Send" name="Submit" >	
+<div class="textarea">
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px" rows="5" cols="50" float="left"></textarea>
+</div>
+
+     <br>
+  
+           
+     <p><input type="submit" value="Send" name="Submit" >	
 
 
 
         <input type="reset" value="Reset" name="Reset"> 
-    </p>		 
-
+    </p>
 
 
 </div>
 </div>
+
 </form>
+<br>
 </div>
 
 <br>
 <hr>
+
 
     <!-- Contact Form End -->
                           

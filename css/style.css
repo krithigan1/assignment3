@@ -182,6 +182,18 @@ ol {
 	border: none;
 }
 
+.order-btn {
+    font-size: 14px;
+    display: inline-block;
+	color: #ffffff;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding: 13px 30px 12px;
+	background: #ff8000;
+    border: none;
+}
+
+
 /* Preloder */
 
 #preloder {

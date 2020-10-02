@@ -88,8 +88,8 @@
 				// default options
 				settings = {
 					checkout				: { type: "PayPal", email: "you@yours.com" },
-					currency				: "AUD",
-					language				: "english-aud",
+					currency				: "USD",
+					language				: "english-us",
 
 					cartStyle				: "div",
 					cartColumns			: [

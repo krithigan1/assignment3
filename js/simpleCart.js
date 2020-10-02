@@ -89,7 +89,7 @@
 				settings = {
 					checkout				: { type: "PayPal", email: "you@yours.com" },
 					currency				: "AUD",
-					language				: "english-us",
+					language				: "english-aud",
 
 					cartStyle				: "div",
 					cartColumns			: [

@@ -2852,14 +2852,49 @@ input.sendcopy {
 /*---------------------
   new Contact Form design 
 -----------------------*/
+div.txt {
+	text-align: center;
+  }
+
 .Cform {
 	width: 500px;
-	
+	color: 		#808080;
 	top: 50%;
 	width: 100%;
 	text-align: center;
 	font-size: 18px;
+	border: solid 1px #999999;
+	border-radius:10px;
+	height: 500px;
+}
 
+.Cform {
+	width: 700px;
+	margin: auto;
+}
+
+
+.txtform {
+text-align: center;
+}
+
+.mes {
+	text-align: left;
+	display: inline-block;
+}
+
+
+.message {
+	display: inline-block;
+	float: left;
+	padding-right: 30px;
+	padding-left: 65px
+}
+
+.textarea {
+	padding-left: 150px;
+	padding-right: 180px;
+	width: 530px
 }
 
 

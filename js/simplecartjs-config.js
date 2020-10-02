@@ -11,7 +11,6 @@ return "<img src='" + item.get('image') + "' class='product_image_thumbnail'>";
 },
 attr: "image", label: "Product Image"},
 { attr: "name", label: "Name"},
-{ attr: "size", label: "Size"},
 { view: "currency", attr: "price", label: "Price"},
 { view: "decrement", label: false},
 { attr: "quantity", label: "Qty"},

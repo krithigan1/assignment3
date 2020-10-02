@@ -1979,14 +1979,14 @@ table.costs {
 /* Links Rulesets */
         
 .button, a.simpleCart_increment, a.simpleCart_decrement, a.simpleCart_remove {
-    background-color:white;
-    border:1px solid lightgray;
+    background-color: #fc8c19;
     border-radius:20px;
-    color:black;
+    color:white;
     padding:1px 5px 1px 5px;
     text-decoration-line: none;
     display: inline;
-    position: center;
+	position: center;
+	font-weight: 600;
  }
 
  a.item_add {

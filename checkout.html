@@ -222,45 +222,72 @@
                             <div class="checkout__input">
                                 <p>Address<span>*</span></p>
                                 <input type="text" placeholder="Street Address..." class="checkout__input__add">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="checkout__input">
+                                            <p>Suburb<span>*</span></p>
+                                            <input type="text" placeholder="Suburb..." class="checkout__input__add">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="checkout__input">
+                                            <p>Post Code<span>*</span></p>
+                                            <input type="text" placeholder="Post Code..." class="checkout__input__add">
+                                        </div>
                             </div>
-                            <div class="checkout__input">
-                                <p>Postcode<span>*</span></p>
-                                <input type="text" placeholder="Postcode..." class="checkout__input__add">
-                            </div>
-                            <div class="checkout__input">
-                                <p>State<span>*</span></p>
-                                <input type="text" placeholder="State..." class="checkout__input__add">
-                            </div>
-                            <div class="checkout__input">
+                            <div class="checkout__input col-lg-4">
                                 <p>Country<span>*</span></p>
                                 <input type="text" placeholder="Country..." class="checkout__input__add">
                             </div>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Phone<span>*</span></p>
-                                        <input type="text" placeholder="Phone..." class="checkout__input__add">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Email<span>*</span></p>
-                                        <input type="text" placeholder="Email Address..." class="checkout__input__add">
-                                    </div>
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Phone Number<span>*</span></p>
+                                    <input type="text" placeholder="Phone Number..." class="checkout__input__add">
                                 </div>
                             </div>
-                            <div class="checkout__input__checkbox">
-                                </label>
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Email Address<span>*</span></p>
+                                    <input type="text" placeholder="Email Address..." class="checkout__input__add">
+                                </div>
                             </div>
-                            <div class="checkout__input">
-                                <p>Order notes<span>*</span></p>
-                                <input type="text"
-                                    placeholder="Notes about your order, e.g. special notes for delivery.">
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="checkout__form">
+                    <h4>Payment Information</h4>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="checkout__input">
+                                    <p>Card Number<span>*</span></p>
+                                    <input type="text" placeholder="**** **** **** ****" class="checkout__input__add">
+                                </div>
                             </div>
-                            <div style="text-align: right;">
-                                    <a href="cart.html" class="order-btn">View Cart (<span class="simpleCart_quantity"></span> items)</a>
-                                    <a href="thank.html" class="order-btn simpleCart.empty()">PLACE ORDER</a>
+                            <div class="col-lg-2">
+                                <div class="checkout__input">
+                                    <p>Expiry Date<span>*</span></p>
+                                    <input type="text" placeholder="Month" class="checkout__input__add">
+                                </div>
+                                </div>
+                            <div class="col-lg-2">
+                                <div class="checkout__input">
+                                    <p></p><br>
+                                    <input type="text" placeholder="Year" class="checkout__input__add">
+                                </div>
                             </div>
+                            <div class="col-lg-2">
+                                <div class="checkout__input">
+                                    <p>CVC<span>*</span></p>
+                                    <input type="text" placeholder="CVC" class="checkout__input__add">                                      
+                                </div>
+                            </div>
+                        </div>
+                    <div style="text-align: center;">
+                            <a href="cart.html" class="order-btn">View Cart (<span class="simpleCart_quantity"></span> items)</a>
+                            <a href="thank.html" class="order-btn simpleCart.empty()">PLACE ORDER</a>
+                    </div>
                         </div>
                     </div>
                 </form>

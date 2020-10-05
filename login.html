@@ -5,25 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
     <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="css/login.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
+
+    <script>
+        function validateForm() {
+        var x = document.forms["myForm"]["uname"].value;
+        var y = document.forms["myForm"]["psw"].value;
+        if (x == "test" && y=="test" ) {
+         alert("Correct Username");
+         else
+            alert("Wrong Password")
+        return false;
+  }
+}
+</script>
 <body>
-    <form>
-        <h3>Enter your username and password</h3>
-        <h5>Login with your user name and password</h5>
-        <div>
-            <label>User Name</label>
-            <input type="text" name="userName" id="userName" size="10" />
-        </div>
-        <div>
-            <label>password</label>
-            <input type="password" name="pswd" id="pswd" size="10"/>
-        </div>
-        <br><br>
-        <div>
-            <input class="button" type="reset" value="Clear">
-            <input class="button" type="submit" value="Login">
-        </div>
-    </form>
+
+<form name="myForm" action="./index.html" method="post">
+  <div class="imgcontainer">
+    <h2>Login Form</h2>
+    <img src="img/logo.png" alt="UOW Logo" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit" >Login</button>
+    <label>
+  </div>
+</form>
     
 </body>
 </html>

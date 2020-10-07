@@ -13,17 +13,15 @@
         function validateForm() {
         var x = document.forms["myForm"]["uname"].value;
         var y = document.forms["myForm"]["psw"].value;
-        if (x == "itne" && y=="2047" ) {
-         alert("Correct Username");
-         else
-            alert("Wrong Password")
+        if (x != "itne" && y !="2047" ) {
+         alert("Incorrect Username or Password");
         return false;
   }
 }
 </script>
 <body>
 
-<form name="myForm" action="./index.html" method="post">
+<form name="myForm" action="./index.html" method="post" onsubmit="return validateForm()">
   <div class="imgcontainer">
     <h2>Login Form</h2>
     <img src="img/logo.png" alt="UOW Logo" class="avatar">
